@@ -95,7 +95,7 @@ public class RequestAspect {
     public void saveExceptionLog(JoinPoint joinPoint, Throwable e) {
         Log logger = ThreadLocalContext.get().getLogger();
         logger.setLogStatus(StateEnums.REQUEST_ERROR.getCode());
-        String exception = StringUtils.getPackageException(e, "com.jg");
+        String exception = StringUtils.getPackageException(e, "com.lt");
         logger.setLogMessage(exception);
         logger.setLogTime(0L);
         logService.save(logger);

@@ -6,8 +6,6 @@ import lombok.Data;
 /**
  * 本地线程上下文，单例模式
  * 用来存储在同一个线程中可能会用到的全局变量
- *
- * @author 杨德石
  */
 @Data
 public class ThreadLocalContext {

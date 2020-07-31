@@ -1,0 +1,190 @@
+2020-07-30 20:55:52.852 INFO  [main]com.lt.blog.BlogApplication.logStarting:55 -Starting BlogApplication on SKY-20200425TBP with PID 4008 (E:\git\blog_T\target\classes started by Administrator in E:\git\blog_T)
+2020-07-30 20:55:52.856 INFO  [main]com.lt.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-07-30 20:55:54.103 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-30 20:55:54.176 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 68ms. Found 4 MongoDB repository interfaces.
+2020-07-30 20:55:55.001 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-07-30 20:55:55.013 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-30 20:55:55.014 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-07-30 20:55:55.015 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-30 20:55:55.111 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-07-30 20:55:55.113 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2178 ms
+2020-07-30 20:55:55.227 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-07-30 20:55:55.257 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-30 20:58:55.271 INFO  [main]com.lt.blog.BlogApplication.logStarting:55 -Starting BlogApplication on SKY-20200425TBP with PID 3160 (E:\git\blog_T\target\classes started by Administrator in E:\git\blog_T)
+2020-07-30 20:58:55.281 INFO  [main]com.lt.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-07-30 20:58:56.310 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-30 20:58:56.380 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 68ms. Found 4 MongoDB repository interfaces.
+2020-07-30 20:58:57.050 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-07-30 20:58:57.060 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-30 20:58:57.060 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-07-30 20:58:57.060 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-30 20:58:57.160 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-07-30 20:58:57.160 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1819 ms
+2020-07-30 20:58:57.250 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-07-30 20:58:57.280 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-30 21:02:17.109 INFO  [main]com.lt.blog.BlogApplication.logStarting:55 -Starting BlogApplication on SKY-20200425TBP with PID 3768 (E:\git\blog_T\target\classes started by Administrator in E:\git\blog_T)
+2020-07-30 21:02:17.119 INFO  [main]com.lt.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-07-30 21:02:18.862 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-30 21:02:18.972 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 98ms. Found 4 MongoDB repository interfaces.
+2020-07-30 21:02:20.052 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-07-30 21:02:20.092 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-30 21:02:20.102 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-07-30 21:02:20.102 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-30 21:02:20.463 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-07-30 21:02:20.463 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 3194 ms
+2020-07-30 21:02:20.673 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-07-30 21:02:20.723 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-30 21:02:43.312 INFO  [main]com.lt.blog.BlogApplication.logStarting:55 -Starting BlogApplication on SKY-20200425TBP with PID 4012 (E:\git\blog_T\target\classes started by Administrator in E:\git\blog_T)
+2020-07-30 21:02:43.312 INFO  [main]com.lt.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-07-30 21:02:44.364 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-30 21:02:44.434 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 69ms. Found 4 MongoDB repository interfaces.
+2020-07-30 21:02:45.183 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-07-30 21:02:45.193 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-30 21:02:45.193 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-07-30 21:02:45.193 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-30 21:02:45.301 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-07-30 21:02:45.301 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1909 ms
+2020-07-30 21:02:45.411 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-07-30 21:03:06.919 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-07-30 21:03:06.919 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-07-30 21:03:06.939 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-30 21:05:44.885 INFO  [main]com.lt.blog.BlogApplication.logStarting:55 -Starting BlogApplication on SKY-20200425TBP with PID 8692 (E:\git\blog_T\target\classes started by Administrator in E:\git\blog_T)
+2020-07-30 21:05:44.893 INFO  [main]com.lt.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-07-30 21:05:46.150 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-30 21:05:46.262 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 105ms. Found 4 MongoDB repository interfaces.
+2020-07-30 21:05:47.612 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-07-30 21:05:47.627 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-30 21:05:47.628 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-07-30 21:05:47.628 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-30 21:05:47.753 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-07-30 21:05:47.754 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2764 ms
+2020-07-30 21:05:47.953 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-07-30 21:05:48.691 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-07-30 21:05:49.427 INFO  [main]org.mongodb.driver.cluster.info:71 -Cluster created with settings {hosts=[47.102.115.146:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-07-30 21:05:53.009 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-30 21:05:53.466 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-07-30 21:05:53.496 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-30 21:05:53.505 INFO  [main]com.lt.blog.BlogApplication.logStarted:61 -Started BlogApplication in 10.444 seconds (JVM running for 14.626)
+2020-07-30 21:05:59.465 INFO  [cluster-ClusterId{value='5f22c5ad184b4d28026255cb', description='null'}-47.102.115.146:27017]org.mongodb.driver.cluster.info:76 -Exception in monitor thread while connecting to server 47.102.115.146:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:63)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2020-07-30 21:07:42.779 INFO  [main]com.lt.blog.BlogApplication.logStarting:55 -Starting BlogApplication on SKY-20200425TBP with PID 4440 (E:\git\blog_T\target\classes started by Administrator in E:\git\blog_T)
+2020-07-30 21:07:42.787 INFO  [main]com.lt.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-07-30 21:07:44.035 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-30 21:07:44.149 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 107ms. Found 4 MongoDB repository interfaces.
+2020-07-30 21:07:45.028 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-07-30 21:07:45.042 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-30 21:07:45.043 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-07-30 21:07:45.044 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-30 21:07:45.155 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-07-30 21:07:45.156 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2267 ms
+2020-07-30 21:07:45.339 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-07-30 21:07:46.077 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-07-30 21:07:47.383 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-07-30 21:07:47.387 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-07-30 21:07:47.411 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-30 21:11:11.504 INFO  [main]com.lt.blog.BlogApplication.logStarting:55 -Starting BlogApplication on SKY-20200425TBP with PID 1536 (E:\git\blog_T\target\classes started by Administrator in E:\git\blog_T)
+2020-07-30 21:11:11.517 INFO  [main]com.lt.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-07-30 21:11:12.876 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-30 21:11:12.953 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 70ms. Found 4 MongoDB repository interfaces.
+2020-07-30 21:11:13.752 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-07-30 21:11:13.764 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-30 21:11:13.764 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-07-30 21:11:13.765 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-30 21:11:13.878 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-07-30 21:11:13.878 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2250 ms
+2020-07-30 21:11:14.023 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-07-30 21:11:14.743 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-07-30 21:11:15.272 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-07-30 21:11:15.277 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-07-30 21:11:15.294 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-30 21:11:56.719 INFO  [main]com.lt.blog.BlogApplication.logStarting:55 -Starting BlogApplication on SKY-20200425TBP with PID 5428 (E:\git\blog_T\target\classes started by Administrator in E:\git\blog_T)
+2020-07-30 21:11:56.725 INFO  [main]com.lt.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-07-30 21:11:57.823 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-30 21:11:57.922 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 92ms. Found 4 MongoDB repository interfaces.
+2020-07-30 21:11:58.697 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-07-30 21:11:58.707 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-30 21:11:58.708 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-07-30 21:11:58.709 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-30 21:11:58.814 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-07-30 21:11:58.814 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2010 ms
+2020-07-30 21:11:58.940 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-07-30 21:11:59.667 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-07-30 21:12:00.296 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-07-30 21:12:00.299 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-07-30 21:12:00.315 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-30 21:12:56.576 INFO  [main]com.lt.blog.BlogApplication.logStarting:55 -Starting BlogApplication on SKY-20200425TBP with PID 920 (E:\git\blog_T\target\classes started by Administrator in E:\git\blog_T)
+2020-07-30 21:12:56.584 INFO  [main]com.lt.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-07-30 21:12:58.042 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:127 -Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-07-30 21:12:58.120 INFO  [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:187 -Finished Spring Data repository scanning in 73ms. Found 4 MongoDB repository interfaces.
+2020-07-30 21:12:58.880 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-07-30 21:12:58.892 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-30 21:12:58.892 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-07-30 21:12:58.893 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-30 21:12:58.987 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-07-30 21:12:58.987 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2286 ms
+2020-07-30 21:12:59.111 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-07-30 21:12:59.827 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-07-30 21:13:01.433 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2020-07-30 21:13:01.436 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-07-30 21:13:01.460 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-30 21:14:59.557 INFO  [main]com.lt.blog.BlogApplication.logStarting:55 -Starting BlogApplication on SKY-20200425TBP with PID 7356 (E:\git\blog_T\target\classes started by Administrator in E:\git\blog_T)
+2020-07-30 21:14:59.569 INFO  [main]com.lt.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-07-30 21:15:01.315 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-07-30 21:15:01.329 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-07-30 21:15:01.330 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-07-30 21:15:01.330 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-30 21:15:01.442 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-07-30 21:15:01.443 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1786 ms
+2020-07-30 21:15:01.578 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-07-30 21:15:02.145 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-07-30 21:15:04.360 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-30 21:15:04.840 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-07-30 21:15:04.863 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-30 21:15:04.877 INFO  [main]com.lt.blog.BlogApplication.logStarted:61 -Started BlogApplication in 6.404 seconds (JVM running for 9.664)
+2020-07-30 21:16:28.496 INFO  [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-30 21:16:28.506 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-07-30 21:16:28.577 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 71 ms
+2020-07-30 21:19:40.037 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -请求地址 : /test/exception/1
+2020-07-30 21:19:40.052 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:114 -请求方式 : GET
+2020-07-30 21:19:40.057 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -IP : 0:0:0:0:0:0:0:1
+2020-07-30 21:19:40.065 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:119 -方法 : com.lt.blog.controller.TestController.test
+2020-07-30 21:19:40.066 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:121 -请求参数：[1]
+2020-07-30 21:19:40.097 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:68 -耗时 : 62
+2020-07-30 21:19:40.237 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:82 -返回值：{"code":20000,"msg":"操作成功！"}
+2020-07-30 21:21:01.668 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -请求地址 : /test/exception/2
+2020-07-30 21:21:01.705 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:114 -请求方式 : GET
+2020-07-30 21:21:01.707 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -IP : 0:0:0:0:0:0:0:1
+2020-07-30 21:21:01.708 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:119 -方法 : com.lt.blog.controller.TestController.test
+2020-07-30 21:21:01.708 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:121 -请求参数：[2]

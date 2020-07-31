@@ -4,11 +4,6 @@ import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-/**
- * @version 1.0
- * @author: 杨德石
- * @date: 2019/3/31 0031 下午 1:49
- */
 public class Md5Utils {
     public static String toMD5(String plainText) {
         byte[] secretBytes = null;

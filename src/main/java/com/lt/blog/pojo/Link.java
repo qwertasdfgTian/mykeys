@@ -1,14 +1,10 @@
 package com.lt.blog.pojo;
 
 import lombok.Data;
+import lombok.ToString;
 
-/**
- * 友情链接
- * @Author: 杨德石
- * @Date: 2020/2/9 14:43
- * @Version 1.0
- */
 @Data
+@ToString
 public class Link {
 
     private Integer linkId;

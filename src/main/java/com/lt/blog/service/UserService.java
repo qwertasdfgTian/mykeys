@@ -83,5 +83,5 @@ public interface UserService {
      * 查询评论数和收藏数
      * @return
      */
-    Map<String, Object> getCommentAndCollectionCount();
+//    Map<String, Object> getCommentAndCollectionCount();
 }
