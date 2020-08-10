@@ -1,0 +1,1107 @@
+2020-08-03 16:54:45.296 INFO  [main]com.lt.blog.BlogApplication.logStarting:55 -Starting BlogApplication on SKY-20200425TBP with PID 2816 (E:\git\blog_T\target\classes started by Administrator in E:\git\blog_T)
+2020-08-03 16:54:45.408 INFO  [main]com.lt.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-08-03 16:54:50.484 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'shiroConfig' of type [com.lt.blog.config.ShiroConfig$$EnhancerBySpringCGLIB$$6454a570] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:50.553 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:50.572 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7bbcaa41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:50.579 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$62944e83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:50.585 INFO  [main]c.a.d.s.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:56 -Init DruidDataSource
+2020-08-03 16:54:50.707 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:50.735 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:50.773 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:52.879 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2020-08-03 16:54:52.880 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:52.979 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.402 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.410 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.418 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.422 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.424 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminServiceImpl' of type [com.lt.blog.service.impl.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.429 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.431 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userMapper' of type [com.sun.proxy.$Proxy74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.435 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'userServiceImpl' of type [com.lt.blog.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.437 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'adminRealm' of type [com.lt.blog.realm.AdminRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.515 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.539 INFO  [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:335 -Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-03 16:54:53.920 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8080 (http)
+2020-08-03 16:54:53.944 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-03 16:54:53.945 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-08-03 16:54:53.945 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-03 16:54:54.038 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-08-03 16:54:54.038 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 8345 ms
+2020-08-03 16:54:55.755 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2020-08-03 16:54:55.778 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-03 16:54:55.789 INFO  [main]com.lt.blog.BlogApplication.logStarted:61 -Started BlogApplication in 11.934 seconds (JVM running for 15.72)
+2020-08-03 16:57:49.013 INFO  [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-03 16:57:49.018 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-08-03 16:57:49.056 INFO  [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 38 ms
+2020-08-03 16:57:49.219 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/login
+2020-08-03 16:57:49.221 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : POST
+2020-08-03 16:57:49.222 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 16:57:49.224 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.login
+2020-08-03 16:57:49.225 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=96e79218965eb72c92a549dd5a330112)]
+2020-08-03 16:57:49.390 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 172
+2020-08-03 16:57:49.511 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":40002,"msg":"用户名或密码错误！"}
+2020-08-03 16:58:59.007 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/login
+2020-08-03 16:58:59.008 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : POST
+2020-08-03 16:58:59.009 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 16:58:59.009 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.login
+2020-08-03 16:58:59.010 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=96e79218965eb72c92a549dd5a330112)]
+2020-08-03 16:58:59.961 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 954
+2020-08-03 16:58:59.963 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"token":"74030B2F898F44759FE321CD7C640429"},"msg":"操作成功！"}
+2020-08-03 17:10:26.864 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/login
+2020-08-03 17:10:26.899 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : POST
+2020-08-03 17:10:26.900 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:10:26.906 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.login
+2020-08-03 17:10:26.908 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=96e79218965eb72c92a549dd5a330112)]
+2020-08-03 17:10:29.207 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2345
+2020-08-03 17:10:29.217 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"token":"74030B2F898F44759FE321CD7C640429"},"msg":"操作成功！"}
+2020-08-03 17:10:29.685 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 17:10:29.686 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:10:29.686 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:10:29.687 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 17:10:29.688 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:10:29.693 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 9
+2020-08-03 17:10:29.720 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 17:12:23.915 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 17:12:23.916 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:12:23.920 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:12:23.920 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 17:12:23.921 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:12:23.921 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 6
+2020-08-03 17:12:23.922 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 17:13:48.398 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 17:13:48.400 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:13:48.401 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:13:48.403 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 17:13:48.403 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:13:48.405 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 6
+2020-08-03 17:13:48.409 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 17:30:13.904 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 17:30:13.951 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:30:13.952 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:30:13.954 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 17:30:13.956 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:30:13.959 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 56
+2020-08-03 17:30:13.967 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 17:30:16.285 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 17:30:16.286 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:30:16.286 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:30:16.287 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 17:30:16.288 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:30:16.288 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 4
+2020-08-03 17:30:16.288 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 17:35:06.801 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 17:35:06.809 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:35:06.810 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:35:06.810 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 17:35:06.811 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:35:06.812 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 10
+2020-08-03 17:35:06.813 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 17:46:51.723 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 17:46:51.756 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:46:51.756 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:46:51.757 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 17:46:51.758 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:46:51.763 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 41
+2020-08-03 17:46:51.771 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 17:46:56.854 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 17:46:56.855 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:46:56.856 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:46:56.856 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 17:46:56.857 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:46:56.858 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 4
+2020-08-03 17:46:56.858 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 17:47:05.471 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 17:47:05.473 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:47:05.473 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:47:05.474 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 17:47:05.474 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:47:05.904 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 433
+2020-08-03 17:47:05.934 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-08-03 17:48:07.332 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/get/1
+2020-08-03 17:48:07.334 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:48:07.334 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:48:07.335 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getById
+2020-08-03 17:48:07.335 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[1]
+2020-08-03 17:48:07.403 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 71
+2020-08-03 17:48:07.404 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},"msg":"操作成功！"}
+2020-08-03 17:58:20.729 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/disable/6
+2020-08-03 17:58:20.756 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : PUT
+2020-08-03 17:58:20.756 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:20.757 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.disable
+2020-08-03 17:58:20.757 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[6]
+2020-08-03 17:58:23.652 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2924
+2020-08-03 17:58:23.658 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"msg":"已弃用"}
+2020-08-03 17:58:23.920 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 17:58:23.924 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:58:23.925 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:23.926 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 17:58:23.928 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:58:23.929 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 9
+2020-08-03 17:58:23.933 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 17:58:24.371 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 17:58:24.372 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:58:24.374 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:24.377 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 17:58:24.377 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:58:24.442 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 74
+2020-08-03 17:58:24.447 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},{"enable":0,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-08-03 17:58:34.274 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/enable/6
+2020-08-03 17:58:34.277 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : PUT
+2020-08-03 17:58:34.285 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:34.286 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.enable
+2020-08-03 17:58:34.287 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[6]
+2020-08-03 17:58:34.453 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 179
+2020-08-03 17:58:34.454 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"msg":"已启用"}
+2020-08-03 17:58:34.602 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 17:58:34.603 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:58:34.603 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:34.603 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 17:58:34.603 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:58:34.681 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 79
+2020-08-03 17:58:34.684 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-08-03 17:58:39.172 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/disable/6
+2020-08-03 17:58:39.172 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : PUT
+2020-08-03 17:58:39.173 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:39.173 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.disable
+2020-08-03 17:58:39.174 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[6]
+2020-08-03 17:58:39.300 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 128
+2020-08-03 17:58:39.301 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"msg":"已弃用"}
+2020-08-03 17:58:39.423 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 17:58:39.424 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:58:39.424 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:39.424 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 17:58:39.425 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:58:39.476 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 53
+2020-08-03 17:58:39.477 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},{"enable":0,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-08-03 17:58:47.519 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/disable/5
+2020-08-03 17:58:47.525 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : PUT
+2020-08-03 17:58:47.525 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:47.528 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.disable
+2020-08-03 17:58:47.529 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[5]
+2020-08-03 17:58:47.668 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 149
+2020-08-03 17:58:47.668 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"msg":"已弃用"}
+2020-08-03 17:58:48.095 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 17:58:48.096 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:58:48.096 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:48.096 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 17:58:48.097 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:58:48.152 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 57
+2020-08-03 17:58:48.155 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":0,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},{"enable":0,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-08-03 17:58:52.485 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/enable/5
+2020-08-03 17:58:52.486 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : PUT
+2020-08-03 17:58:52.486 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:52.487 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.enable
+2020-08-03 17:58:52.488 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[5]
+2020-08-03 17:58:52.755 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 270
+2020-08-03 17:58:52.755 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"msg":"已启用"}
+2020-08-03 17:58:52.993 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 17:58:52.993 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:58:52.994 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:52.994 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 17:58:52.996 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:58:53.161 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 168
+2020-08-03 17:58:53.162 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},{"enable":0,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-08-03 17:58:55.818 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/enable/6
+2020-08-03 17:58:55.819 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : PUT
+2020-08-03 17:58:55.820 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:55.821 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.enable
+2020-08-03 17:58:55.822 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[6]
+2020-08-03 17:58:55.942 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 124
+2020-08-03 17:58:55.942 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"msg":"已启用"}
+2020-08-03 17:58:56.068 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 17:58:56.068 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 17:58:56.069 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 17:58:56.069 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 17:58:56.070 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 17:58:56.119 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 51
+2020-08-03 17:58:56.120 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-08-03 18:16:46.919 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 18:16:46.958 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 18:16:46.958 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 18:16:46.959 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 18:16:46.960 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 18:16:49.122 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2206
+2020-08-03 18:16:49.128 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-08-03 18:16:50.518 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 18:16:50.519 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 18:16:50.519 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 18:16:50.520 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 18:16:50.521 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 18:16:50.521 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 3
+2020-08-03 18:16:50.522 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 18:16:50.864 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 18:16:50.865 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 18:16:50.868 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 18:16:50.869 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 18:16:50.870 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 18:16:50.925 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 61
+2020-08-03 18:16:50.926 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"}],"msg":"操作成功！"}
+2020-08-03 18:16:58.994 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/save
+2020-08-03 18:16:58.995 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : POST
+2020-08-03 18:16:58.995 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 18:16:58.996 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.save
+2020-08-03 18:16:58.997 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[Type(typeId=null, typeName=C语言, typeBlogCount=null, enable=null, deleted=null)]
+2020-08-03 18:16:59.159 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 165
+2020-08-03 18:16:59.160 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"msg":"添加成功！"}
+2020-08-03 18:16:59.276 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 18:16:59.278 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 18:16:59.278 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 18:16:59.279 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 18:16:59.279 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 18:16:59.355 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 79
+2020-08-03 18:16:59.356 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 18:17:45.636 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/get/1
+2020-08-03 18:17:45.637 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 18:17:45.638 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 18:17:45.640 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getById
+2020-08-03 18:17:45.641 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[1]
+2020-08-03 18:17:45.873 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 237
+2020-08-03 18:17:45.875 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},"msg":"操作成功！"}
+2020-08-03 18:33:04.480 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/get/5
+2020-08-03 18:33:04.505 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 18:33:04.506 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 18:33:04.506 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getById
+2020-08-03 18:33:04.507 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[5]
+2020-08-03 18:33:07.758 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 3279
+2020-08-03 18:33:07.761 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},"msg":"操作成功！"}
+2020-08-03 18:33:08.192 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/get/5
+2020-08-03 18:33:08.193 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 18:33:08.193 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 18:33:08.193 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getById
+2020-08-03 18:33:08.193 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[5]
+2020-08-03 18:33:08.254 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 62
+2020-08-03 18:33:08.254 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"Vue"},"msg":"操作成功！"}
+2020-08-03 18:33:16.145 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/update
+2020-08-03 18:33:16.146 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : PUT
+2020-08-03 18:33:16.147 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 18:33:16.147 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.update
+2020-08-03 18:33:16.147 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[Type(typeId=5, typeName=前端, typeBlogCount=1, enable=1, deleted=null)]
+2020-08-03 18:33:16.243 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 98
+2020-08-03 18:33:16.244 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"msg":"更新成功！"}
+2020-08-03 18:33:16.362 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 18:33:16.363 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 18:33:16.366 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 18:33:16.368 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 18:33:16.368 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 18:33:16.456 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 94
+2020-08-03 18:33:16.458 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 18:52:07.767 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 18:52:07.826 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 18:52:07.827 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 18:52:07.830 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 18:52:07.832 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 18:52:07.837 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 74
+2020-08-03 18:52:07.842 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:08:38.002 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:08:38.030 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:08:38.030 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:08:38.031 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:08:38.031 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:08:38.033 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 32
+2020-08-03 19:08:38.037 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:08:40.663 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:08:40.665 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:08:40.668 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:08:40.668 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:08:40.669 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:08:40.766 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 103
+2020-08-03 19:08:40.767 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:09:45.997 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:09:46.000 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:09:46.000 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:09:46.000 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:09:46.001 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:09:46.001 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 4
+2020-08-03 19:09:46.001 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:09:46.395 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:09:46.396 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:09:46.397 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:09:46.398 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:09:46.399 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:09:46.420 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:09:46.422 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:09:46.430 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:09:46.430 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:09:46.431 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:09:46.464 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 69
+2020-08-03 19:09:46.465 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:09:46.547 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 127
+2020-08-03 19:09:46.549 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:11:42.303 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:11:42.305 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:11:42.306 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:11:42.307 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:11:42.311 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:11:42.317 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 14
+2020-08-03 19:11:42.321 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:11:42.587 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:11:42.588 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:11:42.588 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:11:42.589 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:11:42.594 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:11:42.603 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:11:42.607 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:11:42.607 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:11:42.608 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:11:42.608 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:11:42.669 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 82
+2020-08-03 19:11:42.670 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:11:42.730 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 127
+2020-08-03 19:11:42.731 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:21:01.390 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:21:01.397 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:21:01.398 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:21:01.399 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:21:01.400 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:21:01.401 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 11
+2020-08-03 19:21:01.402 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:21:04.050 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:21:04.052 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:21:04.056 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:21:04.057 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:21:04.060 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:21:04.121 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 71
+2020-08-03 19:21:04.123 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:21:07.831 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:21:07.832 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:21:07.833 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:21:07.833 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:21:07.833 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:21:07.889 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 58
+2020-08-03 19:21:07.890 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:39:24.314 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:39:24.364 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:39:24.364 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:39:24.368 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:39:24.369 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:39:24.373 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 61
+2020-08-03 19:39:24.382 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:39:26.991 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:39:26.993 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:39:26.994 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:39:26.994 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:39:26.995 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:39:27.225 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 234
+2020-08-03 19:39:27.227 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:39:32.045 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:39:32.046 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:39:32.048 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:39:32.048 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:39:32.049 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:39:32.116 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 71
+2020-08-03 19:39:32.117 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:39:34.602 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:39:34.603 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:39:34.607 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:39:34.608 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:39:34.609 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:39:34.677 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 75
+2020-08-03 19:39:34.677 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:39:53.129 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:39:53.130 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:39:53.131 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:39:53.132 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:39:53.132 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:39:53.133 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 4
+2020-08-03 19:39:53.136 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:39:58.914 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:39:58.915 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:39:58.915 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:39:58.915 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:39:58.916 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:39:58.916 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 19:39:58.917 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:40:29.775 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:40:29.775 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:40:29.775 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:40:29.775 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:40:29.776 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:40:29.776 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 1
+2020-08-03 19:40:29.777 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:40:33.221 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:40:33.221 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:40:33.222 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:40:33.223 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:40:33.223 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:40:33.223 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 19:40:33.223 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:40:36.542 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:40:36.542 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:40:36.542 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:40:36.543 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:40:36.543 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:40:36.544 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 19:40:36.546 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:40:45.490 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:40:45.491 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:40:45.492 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:40:45.492 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:40:45.493 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:40:45.493 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 3
+2020-08-03 19:40:45.494 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:40:47.318 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:40:47.319 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:40:47.319 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:40:47.319 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:40:47.320 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:40:47.321 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 3
+2020-08-03 19:40:47.322 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:41:01.162 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:41:01.162 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:41:01.164 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:41:01.168 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:41:01.169 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:41:01.169 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 7
+2020-08-03 19:41:01.170 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:41:01.369 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:41:01.373 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:41:01.373 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:41:01.374 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:41:01.380 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:41:01.480 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 111
+2020-08-03 19:41:01.480 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:41:05.996 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:41:05.996 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:41:05.996 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:41:05.996 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:41:05.996 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:41:06.094 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 98
+2020-08-03 19:41:06.095 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:41:13.550 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:41:13.550 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:41:13.551 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:41:13.555 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:41:13.558 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:41:13.559 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 9
+2020-08-03 19:41:13.561 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:41:17.761 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:41:17.762 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:41:17.762 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:41:17.763 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:41:17.763 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:41:17.763 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 19:41:17.764 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:41:17.943 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:41:17.943 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:41:17.943 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:41:17.944 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:41:17.944 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:41:18.013 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 70
+2020-08-03 19:41:18.014 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:41:20.346 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:41:20.347 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:41:20.347 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:41:20.348 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:41:20.348 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:41:20.417 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 71
+2020-08-03 19:41:20.418 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:41:45.010 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:41:45.011 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:41:45.012 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:41:45.013 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:41:45.013 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:41:45.015 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 5
+2020-08-03 19:41:45.016 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:41:45.193 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:41:45.194 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:41:45.194 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:41:45.194 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:41:45.195 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:41:45.258 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 65
+2020-08-03 19:41:45.259 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:41:47.656 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:41:47.661 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:41:47.661 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:41:47.661 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:41:47.662 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:41:47.662 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 6
+2020-08-03 19:41:47.662 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:41:47.830 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:41:47.832 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:41:47.834 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:41:47.834 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:41:47.836 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:41:47.911 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 81
+2020-08-03 19:41:47.911 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:42:00.961 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:42:00.969 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:42:00.969 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:42:00.970 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:42:00.970 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:42:00.970 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 9
+2020-08-03 19:42:00.970 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:42:01.199 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:42:01.200 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:42:01.201 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:42:01.201 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:42:01.202 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:42:01.270 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 71
+2020-08-03 19:42:01.270 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:42:03.419 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:42:03.420 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:42:03.425 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:42:03.425 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:42:03.426 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:42:03.499 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 80
+2020-08-03 19:42:03.501 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:42:07.277 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:42:07.373 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:42:07.373 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:42:07.374 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:42:07.374 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:42:07.442 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 165
+2020-08-03 19:42:07.447 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:42:14.948 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:42:14.949 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:42:14.949 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:42:14.949 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:42:14.950 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:42:14.950 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 19:42:14.951 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:00.875 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:00.876 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:00.878 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:00.880 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:00.881 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:00.883 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 8
+2020-08-03 19:43:00.883 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:10.608 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:10.608 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:10.609 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:10.610 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:10.611 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:10.612 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 4
+2020-08-03 19:43:10.613 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:11.236 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:43:11.237 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:11.238 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:11.238 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:43:11.238 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:11.317 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 81
+2020-08-03 19:43:11.317 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:43:14.449 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:43:14.449 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:14.451 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:14.451 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:43:14.452 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:14.551 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 102
+2020-08-03 19:43:14.551 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:43:19.267 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:19.268 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:19.269 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:19.269 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:19.269 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:19.270 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 3
+2020-08-03 19:43:19.273 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:19.499 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:43:19.500 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:19.501 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:19.501 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:43:19.502 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:19.581 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:43:19.582 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:19.582 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:19.583 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:43:19.583 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:19.791 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 210
+2020-08-03 19:43:19.793 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:43:19.813 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 314
+2020-08-03 19:43:19.813 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:43:31.863 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:31.864 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:31.864 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:31.864 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:31.865 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:31.865 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 19:43:31.866 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:35.293 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:35.294 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:35.294 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:35.295 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:35.295 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:35.295 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 19:43:35.296 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:36.203 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:36.206 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:36.209 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:36.210 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:36.210 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:36.211 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 8
+2020-08-03 19:43:36.212 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:37.685 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:37.685 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:37.686 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:37.687 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:37.688 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:37.690 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 5
+2020-08-03 19:43:37.692 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:37.877 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:43:37.878 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:37.878 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:37.878 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:43:37.878 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:37.941 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 64
+2020-08-03 19:43:37.942 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:43:40.143 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:43:40.143 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:40.144 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:40.144 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:43:40.147 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:40.207 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 64
+2020-08-03 19:43:40.208 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:43:41.633 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:41.634 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:41.634 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:41.635 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:41.635 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:41.635 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 19:43:41.635 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:41.915 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:43:41.916 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:41.917 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:41.917 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:43:41.917 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:41.980 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 65
+2020-08-03 19:43:41.981 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:43:42.978 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:42.979 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:42.979 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:42.980 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:42.980 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:42.980 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 19:43:42.981 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:43.244 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:43:43.246 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:43.247 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:43.248 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:43:43.248 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:43.301 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 58
+2020-08-03 19:43:43.301 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:43:44.494 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:44.495 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:44.496 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:44.496 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:44.496 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:44.497 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 3
+2020-08-03 19:43:44.497 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:44.698 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:43:44.699 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:44.699 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:44.699 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:43:44.700 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:44.775 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 77
+2020-08-03 19:43:44.775 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:43:45.561 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:45.562 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:45.562 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:45.562 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:45.563 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:45.563 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 19:43:45.564 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:45.790 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:45.791 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:45.791 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:45.792 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:45.792 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:45.793 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 3
+2020-08-03 19:43:45.793 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:46.038 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:46.041 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:46.046 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:46.046 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:46.047 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:46.048 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 10
+2020-08-03 19:43:46.048 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:46.199 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:43:46.200 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:46.200 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:46.200 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:43:46.200 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:46.258 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 59
+2020-08-03 19:43:46.258 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:43:58.571 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:43:58.571 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:58.572 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:58.572 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:43:58.572 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:58.572 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 1
+2020-08-03 19:43:58.572 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:43:58.764 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:43:58.765 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:43:58.766 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:43:58.767 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:43:58.769 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:43:58.842 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 78
+2020-08-03 19:43:58.842 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:44:01.558 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:44:01.558 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:44:01.558 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:44:01.558 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:44:01.558 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:44:01.621 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 63
+2020-08-03 19:44:01.622 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:44:08.731 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:44:08.732 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:44:08.732 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:44:08.732 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:44:08.733 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:44:08.733 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 19:44:08.733 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:44:14.610 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:44:14.611 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:44:14.618 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:44:14.619 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:44:14.620 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:44:14.621 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 11
+2020-08-03 19:44:14.622 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:44:16.674 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:44:16.675 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:44:16.675 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:44:16.675 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:44:16.675 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:44:16.675 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 1
+2020-08-03 19:44:16.676 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:44:16.862 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:44:16.863 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:44:16.865 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:44:16.865 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:44:16.866 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:44:16.926 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 64
+2020-08-03 19:44:16.926 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:46:13.649 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:46:13.649 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:46:13.650 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:46:13.651 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:46:13.652 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:46:13.727 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 78
+2020-08-03 19:46:13.727 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:47:42.109 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:47:42.112 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:47:42.116 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:47:42.117 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:47:42.118 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:47:42.119 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 11
+2020-08-03 19:47:42.121 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:47:42.525 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:47:42.526 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:47:42.526 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:47:42.552 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:47:42.575 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:47:42.636 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 111
+2020-08-03 19:47:42.636 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:49:12.056 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:49:12.057 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:49:12.062 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:49:12.064 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:49:12.065 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:49:12.066 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 11
+2020-08-03 19:49:12.067 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:49:12.276 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:49:12.278 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:49:12.278 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:49:12.278 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:49:12.278 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:49:12.339 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 63
+2020-08-03 19:49:12.339 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:49:14.201 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:49:14.201 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:49:14.202 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:49:14.204 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:49:14.205 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:49:14.268 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 67
+2020-08-03 19:49:14.268 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:49:14.799 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:49:14.800 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:49:14.800 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:49:14.801 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:49:14.801 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:49:14.802 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 3
+2020-08-03 19:49:14.802 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:49:15.128 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:49:15.128 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:49:15.129 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:49:15.133 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:49:15.133 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:49:15.136 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:49:15.137 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:49:15.138 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:49:15.139 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:49:15.139 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:49:15.321 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 193
+2020-08-03 19:49:15.322 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:49:15.443 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 307
+2020-08-03 19:49:15.443 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:49:54.745 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/login
+2020-08-03 19:49:54.746 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : POST
+2020-08-03 19:49:54.751 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:49:54.752 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.login
+2020-08-03 19:49:54.753 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=0fd983db8f2c04f20e01ad5e935727b8)]
+2020-08-03 19:49:54.844 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 99
+2020-08-03 19:49:54.845 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":40002,"msg":"用户名或密码错误！"}
+2020-08-03 19:53:34.383 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/login
+2020-08-03 19:53:34.384 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : POST
+2020-08-03 19:53:34.384 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:53:34.385 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.login
+2020-08-03 19:53:34.385 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=bd643c709cad6636be84742ed0cca8ec)]
+2020-08-03 19:53:34.442 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 59
+2020-08-03 19:53:34.443 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":40002,"msg":"用户名或密码错误！"}
+2020-08-03 19:54:26.480 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 19:54:26.482 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:54:26.482 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:54:26.483 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 19:54:26.483 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:54:26.483 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 3
+2020-08-03 19:54:26.485 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 19:54:26.812 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 19:54:26.813 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:54:26.814 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:54:26.815 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 19:54:26.815 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:54:26.870 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 58
+2020-08-03 19:54:26.870 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:54:27.120 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 19:54:27.120 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 19:54:27.121 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:54:27.121 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 19:54:27.122 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 19:54:27.167 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 47
+2020-08-03 19:54:27.168 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 19:54:31.337 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/login
+2020-08-03 19:54:31.340 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : POST
+2020-08-03 19:54:31.340 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 19:54:31.340 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.login
+2020-08-03 19:54:31.340 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=fa789883194ae850c7f0ca909e092083)]
+2020-08-03 19:54:31.395 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 58
+2020-08-03 19:54:31.395 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":40002,"msg":"用户名或密码错误！"}
+2020-08-03 20:20:59.590 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 20:20:59.630 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 20:20:59.631 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 20:20:59.631 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 20:20:59.632 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 20:21:01.955 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2368
+2020-08-03 20:21:01.959 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 20:21:10.969 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 20:21:10.970 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 20:21:10.972 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 20:21:10.974 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 20:21:10.974 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 20:21:11.029 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 60
+2020-08-03 20:21:11.030 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 20:21:51.912 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 20:21:51.913 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 20:21:51.913 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 20:21:51.915 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 20:21:51.916 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 20:21:51.968 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 56
+2020-08-03 20:21:51.969 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 20:23:14.045 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 20:23:14.046 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 20:23:14.046 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 20:23:14.046 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 20:23:14.047 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 20:23:14.132 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 87
+2020-08-03 20:23:14.133 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 20:23:38.984 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/listBack
+2020-08-03 20:23:38.985 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 20:23:38.986 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 20:23:38.987 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.list
+2020-08-03 20:23:38.987 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 20:23:39.152 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 168
+2020-08-03 20:23:39.152 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"enable":1,"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"enable":1,"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"enable":1,"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"enable":1,"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"enable":1,"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"enable":1,"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"enable":1,"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 20:46:14.865 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 20:46:14.927 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 20:46:14.928 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 20:46:14.929 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 20:46:14.930 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 20:46:16.651 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 1789
+2020-08-03 20:46:16.671 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 20:46:21.816 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 20:46:21.824 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 20:46:21.825 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 20:46:21.826 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 20:46:21.826 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 20:46:21.828 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 12
+2020-08-03 20:46:21.842 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 20:46:22.443 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 20:46:22.443 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 20:46:22.443 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 20:46:22.444 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 20:46:22.445 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 20:46:22.508 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 65
+2020-08-03 20:46:22.508 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 21:14:29.097 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:14:29.141 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:14:29.142 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:14:29.143 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:14:29.144 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:14:29.149 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 52
+2020-08-03 21:14:29.155 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:14:32.732 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 21:14:32.737 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:14:32.739 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:14:32.740 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 21:14:32.740 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:14:33.063 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 331
+2020-08-03 21:14:33.064 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":0,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 21:19:42.791 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:19:42.796 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:19:42.797 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:19:42.798 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:19:42.798 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:19:42.799 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 8
+2020-08-03 21:19:42.800 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:20:11.425 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/login
+2020-08-03 21:20:11.427 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : POST
+2020-08-03 21:20:11.427 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:20:11.427 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.login
+2020-08-03 21:20:11.429 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=96e79218965eb72c92a549dd5a330112)]
+2020-08-03 21:20:11.515 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 90
+2020-08-03 21:20:11.518 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"token":"74030B2F898F44759FE321CD7C640429"},"msg":"操作成功！"}
+2020-08-03 21:20:11.663 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:20:11.664 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:20:11.664 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:20:11.664 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:20:11.665 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:20:11.665 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 2
+2020-08-03 21:20:11.665 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:20:12.241 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 21:20:12.242 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:20:12.242 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:20:12.243 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 21:20:12.243 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:20:12.294 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 53
+2020-08-03 21:20:12.294 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":1,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":0,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 21:21:58.637 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:21:58.638 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:21:58.638 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:21:58.643 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:21:58.643 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:21:58.646 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 9
+2020-08-03 21:21:58.647 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:21:59.458 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 21:21:59.458 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:21:59.458 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:21:59.459 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 21:21:59.461 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:21:59.518 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 60
+2020-08-03 21:21:59.519 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":1,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":1,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 21:22:17.087 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:22:17.088 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:22:17.088 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:22:17.088 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:22:17.089 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:22:17.091 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 4
+2020-08-03 21:22:17.092 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:22:17.460 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 21:22:17.461 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:22:17.462 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:22:17.462 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 21:22:17.463 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:22:17.531 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 72
+2020-08-03 21:22:17.532 INFO  [http-nio-8080-exec-7]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":1,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":1,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 21:28:11.178 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:28:11.187 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:28:11.189 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:28:11.191 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:28:11.192 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:28:11.194 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 16
+2020-08-03 21:28:11.195 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:28:11.771 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 21:28:11.772 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:28:11.773 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:28:11.773 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 21:28:11.775 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:28:11.896 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 125
+2020-08-03 21:28:11.897 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":3,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":1,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 21:38:26.096 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:38:26.153 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:38:26.154 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:38:26.155 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:38:26.156 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:38:26.161 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 67
+2020-08-03 21:38:26.167 INFO  [http-nio-8080-exec-4]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:38:28.643 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 21:38:28.643 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:38:28.644 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:38:28.644 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 21:38:28.644 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:38:29.160 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 517
+2020-08-03 21:38:29.161 INFO  [http-nio-8080-exec-8]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":4,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":1,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 21:50:42.910 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:50:43.005 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:50:43.006 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:50:43.009 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:50:43.010 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:50:43.014 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 108
+2020-08-03 21:50:43.029 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:50:45.932 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 21:50:45.933 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:50:45.933 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:50:45.934 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 21:50:45.934 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:50:46.267 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 335
+2020-08-03 21:50:46.268 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":4,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":1,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 21:51:30.091 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:51:30.092 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:51:30.093 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:51:30.094 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:51:30.094 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:51:30.094 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 3
+2020-08-03 21:51:30.096 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:51:34.357 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:51:34.358 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:51:34.359 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:51:34.360 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:51:34.361 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:51:34.361 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 4
+2020-08-03 21:51:34.362 INFO  [http-nio-8080-exec-10]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:52:02.263 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/login
+2020-08-03 21:52:02.266 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : POST
+2020-08-03 21:52:02.267 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:52:02.268 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.login
+2020-08-03 21:52:02.268 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[Admin(id=null, name=null, header=null, signature=null, comment=null, username=admin, password=96e79218965eb72c92a549dd5a330112)]
+2020-08-03 21:52:02.402 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 139
+2020-08-03 21:52:02.403 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"token":"74030B2F898F44759FE321CD7C640429"},"msg":"操作成功！"}
+2020-08-03 21:52:02.511 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:52:02.514 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:52:02.514 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:52:02.515 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:52:02.516 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:52:02.516 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 5
+2020-08-03 21:52:02.517 INFO  [http-nio-8080-exec-3]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:52:03.091 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 21:52:03.093 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:52:03.094 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:52:03.101 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 21:52:03.102 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:52:03.189 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 98
+2020-08-03 21:52:03.190 INFO  [http-nio-8080-exec-5]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":4,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":1,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 21:53:33.995 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:53:34.049 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:53:34.050 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:53:34.053 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:53:34.054 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:53:34.060 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 65
+2020-08-03 21:53:34.067 INFO  [http-nio-8080-exec-6]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:53:34.965 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 21:53:34.967 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:53:34.967 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:53:34.968 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 21:53:34.969 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:53:35.066 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 101
+2020-08-03 21:53:35.068 INFO  [http-nio-8080-exec-9]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":4,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":1,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}
+2020-08-03 21:53:38.943 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /admin/info
+2020-08-03 21:53:38.944 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:53:38.945 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:53:38.947 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.AdminController.getLoginInfo
+2020-08-03 21:53:38.947 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:53:38.948 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 5
+2020-08-03 21:53:38.948 INFO  [http-nio-8080-exec-1]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":{"name":"老田","password":"","signature":"Hello Word!","username":"admin"},"msg":"操作成功！"}
+2020-08-03 21:53:39.378 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:109 -请求地址 : /type/getList
+2020-08-03 21:53:39.379 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:110 -请求方式 : GET
+2020-08-03 21:53:39.380 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:113 -IP : 127.0.0.1
+2020-08-03 21:53:39.380 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:115 -方法 : com.lt.blog.controller.TypeController.getList
+2020-08-03 21:53:39.382 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.printRequestLog:117 -请求参数：[]
+2020-08-03 21:53:39.462 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAround:64 -耗时 : 84
+2020-08-03 21:53:39.463 INFO  [http-nio-8080-exec-2]com.lt.blog.aspect.RequestAspect.doAfterReturning:78 -返回值：{"code":20000,"data":[{"typeBlogCount":4,"typeId":1,"typeName":"Java"},{"typeBlogCount":0,"typeId":2,"typeName":"Linux"},{"typeBlogCount":0,"typeId":3,"typeName":"Docker"},{"typeBlogCount":1,"typeId":4,"typeName":"Mysql"},{"typeBlogCount":1,"typeId":5,"typeName":"前端"},{"typeBlogCount":3,"typeId":6,"typeName":"SpringBoot"},{"typeBlogCount":0,"typeId":7,"typeName":"C语言"}],"msg":"操作成功！"}

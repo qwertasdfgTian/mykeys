@@ -8,11 +8,6 @@ import java.io.Serializable;
  * <p>
  * 博客表实体类
  * </p>
- *
- * @author 稽哥
- * @date 2020-02-07 14:04:12
- * @Version 1.0
- *
  */
 @Data
 public class Blog implements Serializable {

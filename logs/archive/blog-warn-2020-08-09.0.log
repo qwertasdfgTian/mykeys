@@ -1,0 +1,20 @@
+2020-08-09 11:16:00.458 WARN  [http-nio-8080-exec-5]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,420] milliseconds.
+2020-08-09 11:35:39.694 WARN  [http-nio-8080-exec-2]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [3,168] milliseconds.
+2020-08-09 11:41:31.923 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,647] milliseconds.
+2020-08-09 11:41:31.923 WARN  [http-nio-8080-exec-6]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [953] milliseconds.
+2020-08-09 11:48:17.615 WARN  [http-nio-8080-exec-2]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [3,870] milliseconds.
+2020-08-09 11:58:29.123 WARN  [http-nio-8080-exec-2]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [3,482] milliseconds.
+2020-08-09 12:01:13.802 WARN  [http-nio-8080-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-09 12:33:51.733 WARN  [http-nio-8080-exec-4]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-09 12:33:53.066 WARN  [http-nio-8080-exec-10]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-09 12:34:08.237 WARN  [http-nio-8080-exec-8]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-09 12:34:17.521 WARN  [http-nio-8080-exec-5]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-09 12:34:17.520 WARN  [http-nio-8080-exec-3]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-09 12:34:17.522 WARN  [http-nio-8080-exec-1]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-09 12:34:17.771 WARN  [http-nio-8080-exec-6]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-09 12:34:17.850 WARN  [http-nio-8080-exec-2]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-09 13:31:19.068 WARN  [http-nio-8080-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-09 13:32:31.726 WARN  [http-nio-8080-exec-16]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-09 13:39:08.321 WARN  [http-nio-8080-exec-4]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,614] milliseconds.
+2020-08-09 15:44:25.805 WARN  [http-nio-8080-exec-3]org.mongodb.driver.connection.warn:86 -Got socket exception on connection [connectionId{localValue:2, serverValue:79}] to 39.101.131.194:27017. All connections to 39.101.131.194:27017 will be closed.
+2020-08-09 15:46:04.320 WARN  [http-nio-8080-exec-3]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,909] milliseconds.

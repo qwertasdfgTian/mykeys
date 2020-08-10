@@ -1,0 +1,20 @@
+2020-08-04 10:38:54.966 WARN  [http-nio-8080-exec-2]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [784] milliseconds.
+2020-08-04 11:08:21.873 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [977] milliseconds.
+2020-08-04 16:48:20.596 WARN  [http-nio-8080-exec-10]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-04 16:48:22.837 WARN  [http-nio-8080-exec-2]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-04 16:48:26.141 WARN  [http-nio-8080-exec-4]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-04 17:26:51.867 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,039] milliseconds.
+2020-08-04 17:33:03.341 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [952] milliseconds.
+2020-08-04 17:38:33.069 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [781] milliseconds.
+2020-08-04 17:40:54.072 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [875] milliseconds.
+2020-08-04 17:46:19.192 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [896] milliseconds.
+2020-08-04 17:51:32.506 WARN  [http-nio-8080-exec-2]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [877] milliseconds.
+2020-08-04 17:52:41.833 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [862] milliseconds.
+2020-08-04 17:54:27.522 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [913] milliseconds.
+2020-08-04 18:09:06.090 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [867] milliseconds.
+2020-08-04 18:11:58.705 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [869] milliseconds.
+2020-08-04 18:16:15.811 WARN  [http-nio-8080-exec-2]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [913] milliseconds.
+2020-08-04 18:18:52.431 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [832] milliseconds.
+2020-08-04 18:21:48.711 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [887] milliseconds.
+2020-08-04 20:40:07.031 WARN  [http-nio-8080-exec-5]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-04 20:40:27.120 WARN  [http-nio-8080-exec-5]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1

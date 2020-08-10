@@ -1,7 +1,7 @@
 package com.lt.blog.service.impl;
 
-//import com.lt.blog.dao.CollectionDao;
-//import com.lt.blog.dao.CommentDao;
+import com.lt.blog.dao.CollectionDao;
+import com.lt.blog.dao.CommentDao;
 import com.lt.blog.enums.ResultEnum;
 import com.lt.blog.exception.BlogException;
 import com.lt.blog.mapper.UserMapper;
@@ -22,10 +22,6 @@ import java.util.Map;
  * <p>
  * 用户表服务实现类
  * </p>
- *
- * @author 稽哥
- * @date 2020-02-07 14:04:12
- * @Version 1.0
  */
 @Service
 @Slf4j
@@ -33,10 +29,10 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserMapper userMapper;
-//    @Autowired
-//    private CommentDao commentDao;
-//    @Autowired
-//    private CollectionDao collectionDao;
+    @Autowired
+    private CommentDao commentDao;
+    @Autowired
+    private CollectionDao collectionDao;
 
 
     @Override
@@ -86,12 +82,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void register(User user) {
-        // 先根据用户名查询用户是否存在
-        User u = userMapper.getByUsername(user.getUsername());
-        // 如果存在，提示用户已存在
-        if (u != null) {
-            throw new BlogException(ResultEnum.PARAMS_ERROR.getCode(), "用户已存在！");
-        }
         // 如果不存在，插入数据
         userMapper.save(user);
     }
@@ -106,14 +96,13 @@ public class UserServiceImpl implements UserService {
         userMapper.updateInfo(user);
     }
 
-//    @Override
-//    public Map<String, Object> getCommentAndCollectionCount() {
-//        User user = (User) ShiroUtils.getLoginUser();
-//        int commentCount = commentDao.countByCommentUser(user.getUserId());
-//        int collectionCount = collectionDao.countByUserId(user.getUserId());
-//        Map<String, Object> map = new HashMap<>(4);
-//        map.put("commentCount", commentCount);
-//        map.put("collectionCount", collectionCount);
-//        return map;
-//    }
+    public Map<String, Object> getCommentAndCollectionCount() {
+        User user = (User) ShiroUtils.getLoginUser();
+        int commentCount = commentDao.countByCommentUser(user.getUserId());
+        int collectionCount = collectionDao.countByUserId(user.getUserId());
+        Map<String, Object> map = new HashMap<>(4);
+        map.put("commentCount", commentCount);
+        map.put("collectionCount", collectionCount);
+        return map;
+    }
 }

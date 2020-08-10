@@ -17,6 +17,8 @@ public class Page<T> implements Serializable {
 
     private static final String SORT_DESC = "desc";
 
+    //博客id
+    private String blogId;
     /**
      * 当前页
      */

@@ -1,0 +1,21 @@
+2020-08-05 10:48:29.197 WARN  [http-nio-8080-exec-2]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [840] milliseconds.
+2020-08-05 11:43:16.230 WARN  [http-nio-8080-exec-4]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2020-08-05 12:07:56.748 WARN  [http-nio-8080-exec-9]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2020-08-05 12:08:28.442 WARN  [http-nio-8080-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2020-08-05 12:08:45.192 WARN  [http-nio-8080-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2020-08-05 12:09:57.194 WARN  [http-nio-8080-exec-6]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-05 12:09:58.159 WARN  [http-nio-8080-exec-7]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-05 12:10:03.439 WARN  [http-nio-8080-exec-8]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-05 12:10:46.932 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [940] milliseconds.
+2020-08-05 12:11:05.184 WARN  [http-nio-8080-exec-7]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2020-08-05 12:11:29.715 WARN  [http-nio-8080-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2020-08-05 12:19:25.900 WARN  [http-nio-8080-exec-5]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.lt.blog.utils.Result<java.lang.Object> com.lt.blog.controller.LogController.deleteByIds(java.util.List<java.lang.Integer>)]
+2020-08-05 12:20:31.153 WARN  [http-nio-8080-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.lt.blog.utils.Result<java.lang.Object> com.lt.blog.controller.LogController.deleteByIds(java.util.List<java.lang.Integer>)]
+2020-08-05 12:22:18.819 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [931] milliseconds.
+2020-08-05 19:38:56.458 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [873] milliseconds.
+2020-08-05 20:39:39.507 WARN  [http-nio-8080-exec-7]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-05 20:39:40.433 WARN  [http-nio-8080-exec-6]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-05 20:39:50.314 WARN  [http-nio-8080-exec-8]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-05 20:39:54.883 WARN  [http-nio-8080-exec-9]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-05 20:39:59.567 WARN  [http-nio-8080-exec-7]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-05 20:40:00.445 WARN  [http-nio-8080-exec-6]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1

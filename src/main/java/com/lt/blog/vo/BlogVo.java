@@ -4,11 +4,6 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-/**
- * @Author: 杨德石
- * @Date: 2020/2/9 19:10
- * @Version 1.0
- */
 @Data
 public class BlogVo implements Serializable {
 

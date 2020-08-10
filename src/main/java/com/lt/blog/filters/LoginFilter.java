@@ -22,6 +22,7 @@ public class LoginFilter extends UserFilter {
     @Override
     protected void redirectToLogin(ServletRequest request, ServletResponse response) throws IOException {
         response.setContentType("application/json; charset=utf-8");
+        System.out.println("我是shiro拦截的========================");
         response.getWriter().write(JSONObject.toJSONString(new Result<>(ResultEnum.NOT_LOGIN)));
     }
 }

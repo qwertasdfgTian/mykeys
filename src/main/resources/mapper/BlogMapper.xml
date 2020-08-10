@@ -95,6 +95,11 @@
         blog_goods = blog_goods + 1
         where blog_id = #{id}
     </update>
+    <delete id="delGoods">
+        update bl_blog set
+        blog_goods = blog_goods - 1
+        where blog_id = #{id}
+    </delete>
     <select id="getById" resultMap="BaseResultMap">
         select
         blog_id, blog_title, blog_content, blog_goods, blog_image,

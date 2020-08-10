@@ -22,22 +22,26 @@ public class LoginInterceptor implements HandlerInterceptor {
             "/link/list",
             "/music/getList",
             "/about/read",
+            "/about/",
             "/type/getList",
             "/blog/recomRead",
-            "/blog/read",
+            "/blog/read/",
             "/blog/getTimeLine",
             "/blog/getByPage",
             "/comment/getByBlog",
-            "/admin/getAdmin"
+            "/admin/getAdmin",
+            "/carousel/findAll"
     };
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        System.out.println(request.getRequestURI()+"============================");
         if (containsWhiteList(request.getRequestURI())) {
             return true;
         }
         //进行拦截发现token有值说明已经登录
         // 获取token
+        System.out.println("我是拦截器拦截的==========================");
         String token = request.getHeader("Authorization");
         if (StringUtils.isNotBlank(token)) {
             // token不为空，获取当前登录用户

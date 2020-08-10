@@ -75,4 +75,6 @@ public interface BlogMapper {
      * @param blogId
      */
     void updateGoods(String blogId);
+
+    void delGoods(String blogId);
 }

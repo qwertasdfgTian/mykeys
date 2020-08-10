@@ -21,11 +21,6 @@ import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Author: 杨德石
- * @Date: 2020/2/9 15:39
- * @Version 1.0
- */
 @RestController
 @RequestMapping("/admin")
 public class AdminController {

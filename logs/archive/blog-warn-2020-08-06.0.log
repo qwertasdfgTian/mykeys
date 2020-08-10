@@ -1,0 +1,103 @@
+2020-08-06 11:31:33.160 WARN  [http-nio-8080-exec-1]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,288] milliseconds.
+2020-08-06 11:32:34.955 WARN  [http-nio-8080-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290276403400519680
+2020-08-06 16:23:25.284 WARN  [http-nio-8080-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 16:23:34.632 WARN  [http-nio-8080-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /blog/getCollectionList
+2020-08-06 16:23:35.349 WARN  [http-nio-8080-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /comment/getList
+2020-08-06 16:23:36.462 WARN  [http-nio-8080-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 16:30:45.947 WARN  [http-nio-8080-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /comment/getList
+2020-08-06 16:30:47.831 WARN  [http-nio-8080-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /blog/getCollectionList
+2020-08-06 16:30:48.097 WARN  [http-nio-8080-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 16:35:44.425 WARN  [http-nio-8080-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 16:40:17.540 WARN  [http-nio-8080-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 16:52:10.425 WARN  [http-nio-8080-exec-9]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:52:19.461 WARN  [http-nio-8080-exec-3]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:52:22.896 WARN  [http-nio-8080-exec-2]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:52:23.455 WARN  [http-nio-8080-exec-4]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:52:25.755 WARN  [http-nio-8080-exec-7]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:52:45.611 WARN  [http-nio-8080-exec-1]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:52:45.675 WARN  [http-nio-8080-exec-8]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:52:45.932 WARN  [http-nio-8080-exec-6]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:52:45.957 WARN  [http-nio-8080-exec-10]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:52:45.957 WARN  [http-nio-8080-exec-5]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:52:58.677 WARN  [http-nio-8080-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 16:53:13.020 WARN  [http-nio-8080-exec-3]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:53:13.966 WARN  [http-nio-8080-exec-2]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:53:14.777 WARN  [http-nio-8080-exec-4]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:54:20.089 WARN  [http-nio-8080-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 16:56:10.964 WARN  [http-nio-8080-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290275213300314112
+2020-08-06 16:56:10.951 WARN  [http-nio-8080-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290275213300314112
+2020-08-06 16:56:10.965 WARN  [http-nio-8080-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290275213300314112
+2020-08-06 16:56:39.628 WARN  [http-nio-8080-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 16:56:44.782 WARN  [http-nio-8080-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 16:56:49.181 WARN  [http-nio-8080-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 16:56:59.506 WARN  [http-nio-8080-exec-7]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:00.685 WARN  [http-nio-8080-exec-10]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:03.360 WARN  [http-nio-8080-exec-6]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:03.692 WARN  [http-nio-8080-exec-8]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:03.956 WARN  [http-nio-8080-exec-2]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:03.956 WARN  [http-nio-8080-exec-1]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:04.388 WARN  [http-nio-8080-exec-11]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:04.821 WARN  [http-nio-8080-exec-12]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:04.828 WARN  [http-nio-8080-exec-15]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:04.834 WARN  [http-nio-8080-exec-14]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:04.835 WARN  [http-nio-8080-exec-13]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:06.879 WARN  [http-nio-8080-exec-17]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:15.880 WARN  [http-nio-8080-exec-16]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 16:57:24.858 WARN  [http-nio-8080-exec-14]com.alibaba.druid.pool.DruidDataSource.getConnectionDirect:1260 -get connection timeout retry : 1
+2020-08-06 17:00:24.888 WARN  [http-nio-8080-exec-14]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290277842621411328
+2020-08-06 17:00:24.888 WARN  [http-nio-8080-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290277842621411328
+2020-08-06 17:00:24.887 WARN  [http-nio-8080-exec-13]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290277842621411328
+2020-08-06 18:34:41.831 WARN  [http-nio-8080-exec-11]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290276403400519680
+2020-08-06 18:35:02.050 WARN  [http-nio-8080-exec-17]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290275213300314112
+2020-08-06 18:35:13.689 WARN  [http-nio-8080-exec-16]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290277842621411328
+2020-08-06 18:36:59.797 WARN  [http-nio-8080-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290275213300314112
+2020-08-06 18:37:02.364 WARN  [http-nio-8080-exec-3]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,551] milliseconds.
+2020-08-06 18:37:02.364 WARN  [http-nio-8080-exec-5]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,552] milliseconds.
+2020-08-06 18:37:02.365 WARN  [http-nio-8080-exec-6]org.apache.catalina.util.SessionIdGeneratorBase.log:173 -Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,554] milliseconds.
+2020-08-06 18:37:12.328 WARN  [http-nio-8080-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290275213300314112
+2020-08-06 18:39:19.986 WARN  [http-nio-8080-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290276403400519680
+2020-08-06 18:39:19.988 WARN  [http-nio-8080-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290276403400519680
+2020-08-06 18:39:20.008 WARN  [http-nio-8080-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290276403400519680
+2020-08-06 18:39:26.741 WARN  [http-nio-8080-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290277842621411328
+2020-08-06 18:39:26.745 WARN  [http-nio-8080-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290277842621411328
+2020-08-06 18:39:26.745 WARN  [http-nio-8080-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290277842621411328
+2020-08-06 18:48:43.045 WARN  [http-nio-8080-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290276403400519680
+2020-08-06 18:48:43.045 WARN  [http-nio-8080-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290276403400519680
+2020-08-06 18:48:43.045 WARN  [http-nio-8080-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290276403400519680
+2020-08-06 18:49:23.926 WARN  [http-nio-8080-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290276403400519680
+2020-08-06 18:49:23.930 WARN  [http-nio-8080-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290276403400519680
+2020-08-06 18:49:23.931 WARN  [http-nio-8080-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290276403400519680
+2020-08-06 18:49:38.495 WARN  [http-nio-8080-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290276403400519680
+2020-08-06 18:49:38.496 WARN  [http-nio-8080-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290276403400519680
+2020-08-06 18:49:38.509 WARN  [http-nio-8080-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290276403400519680
+2020-08-06 18:52:13.915 WARN  [http-nio-8080-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290275213300314112
+2020-08-06 18:52:13.915 WARN  [http-nio-8080-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290275213300314112
+2020-08-06 18:52:13.915 WARN  [http-nio-8080-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290275213300314112
+2020-08-06 18:52:45.471 WARN  [http-nio-8080-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290276403400519680
+2020-08-06 18:52:45.489 WARN  [http-nio-8080-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290276403400519680
+2020-08-06 18:52:45.490 WARN  [http-nio-8080-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290276403400519680
+2020-08-06 19:13:57.204 WARN  [http-nio-8080-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290277842621411328
+2020-08-06 19:13:57.204 WARN  [http-nio-8080-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290277842621411328
+2020-08-06 19:13:57.204 WARN  [http-nio-8080-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290277842621411328
+2020-08-06 19:18:57.383 WARN  [http-nio-8080-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 19:19:00.172 WARN  [http-nio-8080-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290277842621411328
+2020-08-06 19:19:00.179 WARN  [http-nio-8080-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290277842621411328
+2020-08-06 19:19:00.190 WARN  [http-nio-8080-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290277842621411328
+2020-08-06 19:19:02.049 WARN  [http-nio-8080-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 19:19:10.111 WARN  [http-nio-8080-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /blog/getCollectionList
+2020-08-06 19:19:11.080 WARN  [http-nio-8080-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /comment/getList
+2020-08-06 19:19:16.761 WARN  [http-nio-8080-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /blog/getCollectionList
+2020-08-06 19:19:26.560 WARN  [http-nio-8080-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /comment/getList
+2020-08-06 19:25:10.277 WARN  [http-nio-8080-exec-10]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /blog/getCollectionList
+2020-08-06 19:25:10.826 WARN  [http-nio-8080-exec-3]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /comment/getList
+2020-08-06 19:25:12.041 WARN  [http-nio-8080-exec-2]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for POST /blog/getCollectionList
+2020-08-06 19:25:12.825 WARN  [http-nio-8080-exec-5]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /user/commentAndCollectionCount
+2020-08-06 19:25:25.737 WARN  [http-nio-8080-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290277842621411328
+2020-08-06 19:25:25.741 WARN  [http-nio-8080-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290277842621411328
+2020-08-06 19:25:25.750 WARN  [http-nio-8080-exec-9]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290277842621411328
+2020-08-06 19:30:45.186 WARN  [http-nio-8080-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290276403400519680
+2020-08-06 19:35:01.797 WARN  [http-nio-8080-exec-6]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290277842621411328
+2020-08-06 19:35:09.599 WARN  [http-nio-8080-exec-4]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290275213300314112
+2020-08-06 20:18:52.228 WARN  [http-nio-8080-exec-8]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /comment/getByBlog/1290275213300314112
+2020-08-06 20:18:52.228 WARN  [http-nio-8080-exec-7]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getGood/1290275213300314112
+2020-08-06 20:18:52.228 WARN  [http-nio-8080-exec-1]org.springframework.web.servlet.PageNotFound.noHandlerFound:1251 -No mapping for GET /blog/getCollection/1290275213300314112

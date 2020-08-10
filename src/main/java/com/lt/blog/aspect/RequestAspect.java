@@ -26,10 +26,6 @@ import java.util.Arrays;
 /**
  * 切面输出基本信息
  * 以及记录日志
- *
- * @author: 杨德石
- * @date: 2019/8/5 13:22
- * @Version 1.0
  */
 @Aspect
 @Component
