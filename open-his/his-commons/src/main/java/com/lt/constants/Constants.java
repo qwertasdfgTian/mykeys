@@ -135,6 +135,7 @@ public interface Constants {
     //挂号
     String ID_PROFIX_GH = "GH";
 
-    String ID_PROFIX_ITEM = "";
-    String ID_PROFIX_CH = "";
+    String ID_PROFIX_ITEM = "ITEM";
+    String ID_PROFIX_CH = "CH"; //病例
+    String ID_PROFIX_CO = "CO"; //处方
 }

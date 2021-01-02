@@ -88,7 +88,7 @@ public class RegistrationController extends BaseController {
      * 挂号
      */
     @PostMapping("addRegistration")
-    @HystrixCommand
+    //@HystrixCommand
     public AjaxResult addRegistration(@RequestBody @Validated RegistrationFormDto registrationFormDto){
         PatientDto patientDto = registrationFormDto.getPatientDto();
         RegistrationDto registrationDto = registrationFormDto.getRegistrationDto();
@@ -108,7 +108,7 @@ public class RegistrationController extends BaseController {
         Dept dept=this.deptService.getOne(registrationDto.getDeptId());
         //保存患者信息
         registrationDto.setSimpleUser(ShiroSecurityUtils.getCurrentSimpleUser());
-        registrationDto.setRegId(IdGeneratorSnowflake.generatorIdWithProfix(Constants.ID_PROFIX_GH));
+        registrationDto.setRegistrationId(IdGeneratorSnowflake.generatorIdWithProfix(Constants.ID_PROFIX_GH));
         registrationDto.setPatientId(patient.getPatientId());
         registrationDto.setPatientName(patient.getName());
         registrationDto.setRegNumber(dept.getRegNumber()+1);//编号+1
@@ -116,7 +116,7 @@ public class RegistrationController extends BaseController {
         //更新当天的科室号段
         this.deptService.updateDeptRegNumber(dept.getDeptId(),dept.getRegNumber()+1);
         //返回挂号编号给前端
-        return AjaxResult.success("",registrationDto.getRegId());
+        return AjaxResult.success("",registrationDto.getRegistrationId());
     }
 
     /**

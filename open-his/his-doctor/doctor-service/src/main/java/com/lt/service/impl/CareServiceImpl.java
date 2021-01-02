@@ -106,7 +106,6 @@ public class CareServiceImpl implements CareService {
             careOrderItem.setCoId(careOrder.getCoId());
             careOrderItem.setCreateTime(DateUtil.date());
             careOrderItem.setStatus(Constants.ORDER_DETAILS_STATUS_0);//未支付
-            //一定要记得加哦，泽新还没有加
             careOrderItem.setItemId(IdGeneratorSnowflake.generatorIdWithProfix(Constants.ID_PROFIX_ITEM));
             this.careOrderItemMapper.insert(careOrderItem);
         }

@@ -146,101 +146,101 @@ public class CareController extends BaseController {
     }
 
 
-//    /**
-//     * 保存病历信息
-//     */
-//    @PostMapping("saveCareHistory")
-//    @HystrixCommand
-//    public AjaxResult saveCareHistory(@RequestBody CareHistoryDto careHistoryDto){
-//        careHistoryDto.setUserId(ShiroSecurityUtils.getCurrentUser().getUserId());
-//        careHistoryDto.setUserName(ShiroSecurityUtils.getCurrentUser().getUserName());
-//        careHistoryDto.setDeptId(ShiroSecurityUtils.getCurrentUser().getDeptId());
-//        Dept dept=this.deptService.getOne(ShiroSecurityUtils.getCurrentUser().getDeptId());
-//        careHistoryDto.setDeptName(dept.getDeptName());
-//        careHistoryDto.setCareDate(DateUtil.date());
-//        CareHistory careHistory=this.careService.saveOrUpdateCareHistory(careHistoryDto);
-//        return AjaxResult.success(careHistory);
-//    }
-//
-//
-//    /**
-//     * 根据挂号单位ID查询对应的病历信息
-//     */
-//    @GetMapping("getCareHistoryByRegId/{regId}")
-//    @HystrixCommand
-//    public AjaxResult getCareHistoryByRegId(@PathVariable String regId){
-//        CareHistory careHistory=this.careService.queryCareHistoryByRegId(regId);
-//        return AjaxResult.success(careHistory);
-//    }
-//
-//
-//    /**
-//     * 根据病历ID查询处方信息及详情信息
-//     */
-//    @GetMapping("queryCareOrdersByChId/{chId}")
-//    @HystrixCommand
-//    public AjaxResult queryCareOrdersByChId(@PathVariable String chId){
-//        List<CareOrder> careOrders=this.careService.queryCareOrdersByChId(chId);
-//        List<Map<String,Object>> res=new ArrayList<>();
-//        for (CareOrder careOrder : careOrders) {
-//            Map<String,Object> map=new HashMap<>();
-//            map.put("careOrder",careOrder);
-//            List<CareOrderItem> careOrderItems=this.careService.queryCareOrderItemsByCoId(careOrder.getCoId());
-//            map.put("careOrderItems",careOrderItems);
-//            res.add(map);
-//        }
-//        return AjaxResult.success(res);
-//    }
-//
-//    /**
-//     * 保存处方及详情信息
-//     */
-//    @PostMapping("saveCareOrderItem")
-//    @HystrixCommand
-//    public AjaxResult saveCareOrderItem(@RequestBody @Validated CareOrderFormDto careOrderFormDto){
-//        //根据病例ID查询病历信息
-//        CareHistory careHistory=this.careService.queryCareHistoryByChId(careOrderFormDto.getCareOrder().getChId());
-//        if(null==careHistory){
-//            return AjaxResult.fail("病历ID不存在，请核对后再提交");
-//        }
-//        careOrderFormDto.getCareOrder().setCoId(IdGeneratorSnowflake.generatorIdWithProfix(Constants.ID_PROFIX_CO));
-//        careOrderFormDto.getCareOrder().setPatientId(careHistory.getPatientId());
-//        careOrderFormDto.getCareOrder().setPatientName(careHistory.getPatientName());
-//        careOrderFormDto.getCareOrder().setUserId(ShiroSecurityUtils.getCurrentUser().getUserId());
-//        careOrderFormDto.getCareOrder().setSimpleUser(ShiroSecurityUtils.getCurrentSimpleUser());
-//        return AjaxResult.toAjax(this.careService.saveCareOrderItem(careOrderFormDto));
-//    }
-//
-//    /**
-//     * 根据处方详情ID删除处方详情【只能删除未支付的】
-//     */
-//    @DeleteMapping("deleteCareOrderItemById/{itemId}")
-//    @HystrixCommand
-//    public AjaxResult deleteCareOrderItemById(@PathVariable String itemId){
-//        CareOrderItem careOrderItem=this.careService.queryCareOrderItemByItemId(itemId);
-//        if(null==careOrderItem){
-//            return AjaxResult.fail("处方详情ID不存在");
-//        }
-//        if(!careOrderItem.getStatus().equals(Constants.ORDER_DETAILS_STATUS_0)){
-//            return AjaxResult.fail("【"+itemId+"】不是未支付状态，不能删除");
-//        }
-//        return AjaxResult.toAjax(this.careService.deleteCareOrderItemByItemId(itemId));
-//    }
-//
-//    /**
-//     *完成就诊
-//     */
-//    @PostMapping("visitComplete/{regId}")
-//    @HystrixCommand
-//    public AjaxResult visitComplete(@PathVariable String regId){
-//        Registration registration=this.registrationService.queryRegistrationByRegId(regId);
-//        if(null==registration){
-//            return AjaxResult.fail("【"+regId+"】挂号单号不存在，请核对后再提交");
-//        }
-//        if(!registration.getRegStatus().equals(Constants.REG_STATUS_2)){
-//            return AjaxResult.fail("【"+regId+"】状态不是就诊中状态，不能完成就诊");
-//        }
-//        //更改挂号单的状态
-//        return AjaxResult.toAjax(this.careService.visitComplete(regId));
-//    }
+    /**
+     * 保存病历信息
+     */
+    @PostMapping("saveCareHistory")
+    @HystrixCommand
+    public AjaxResult saveCareHistory(@RequestBody CareHistoryDto careHistoryDto){
+        careHistoryDto.setUserId(ShiroSecurityUtils.getCurrentUser().getUserId());
+        careHistoryDto.setUserName(ShiroSecurityUtils.getCurrentUser().getUserName());
+        careHistoryDto.setDeptId(ShiroSecurityUtils.getCurrentUser().getDeptId());
+        Dept dept=this.deptService.getOne(ShiroSecurityUtils.getCurrentUser().getDeptId());
+        careHistoryDto.setDeptName(dept.getDeptName());
+        careHistoryDto.setCareDate(DateUtil.date());
+        CareHistory careHistory=this.careService.saveOrUpdateCareHistory(careHistoryDto);
+        return AjaxResult.success(careHistory);
+    }
+
+
+    /**
+     * 根据挂号单位ID查询对应的病历信息
+     */
+    @GetMapping("getCareHistoryByRegId/{regId}")
+    @HystrixCommand
+    public AjaxResult getCareHistoryByRegId(@PathVariable String regId){
+        CareHistory careHistory=this.careService.queryCareHistoryByRegId(regId);
+        return AjaxResult.success(careHistory);
+    }
+
+
+    /**
+     * 根据病历ID查询处方信息及详情信息
+     */
+    @GetMapping("queryCareOrdersByChId/{chId}")
+    @HystrixCommand
+    public AjaxResult queryCareOrdersByChId(@PathVariable String chId){
+        List<CareOrder> careOrders=this.careService.queryCareOrdersByChId(chId);
+        List<Map<String,Object>> res=new ArrayList<>();
+        for (CareOrder careOrder : careOrders) {
+            Map<String,Object> map=new HashMap<>();
+            map.put("careOrder",careOrder);
+            List<CareOrderItem> careOrderItems=this.careService.queryCareOrderItemsByCoId(careOrder.getCoId());
+            map.put("careOrderItems",careOrderItems);
+            res.add(map);
+        }
+        return AjaxResult.success(res);
+    }
+
+    /**
+     * 保存处方及详情信息
+     */
+    @PostMapping("saveCareOrderItem")
+    @HystrixCommand
+    public AjaxResult saveCareOrderItem(@RequestBody @Validated CareOrderFormDto careOrderFormDto){
+        //根据病例ID查询病历信息
+        CareHistory careHistory=this.careService.queryCareHistoryByChId(careOrderFormDto.getCareOrder().getChId());
+        if(null==careHistory){
+            return AjaxResult.fail("病历ID不存在，请核对后再提交");
+        }
+        careOrderFormDto.getCareOrder().setCoId(IdGeneratorSnowflake.generatorIdWithProfix(Constants.ID_PROFIX_CO));
+        careOrderFormDto.getCareOrder().setPatientId(careHistory.getPatientId());
+        careOrderFormDto.getCareOrder().setPatientName(careHistory.getPatientName());
+        careOrderFormDto.getCareOrder().setUserId(ShiroSecurityUtils.getCurrentUser().getUserId());
+        careOrderFormDto.getCareOrder().setSimpleUser(ShiroSecurityUtils.getCurrentSimpleUser());
+        return AjaxResult.toAjax(this.careService.saveCareOrderItem(careOrderFormDto));
+    }
+
+    /**
+     * 根据处方详情ID删除处方详情【只能删除未支付的】
+     */
+    @DeleteMapping("deleteCareOrderItemById/{itemId}")
+    @HystrixCommand
+    public AjaxResult deleteCareOrderItemById(@PathVariable String itemId){
+        CareOrderItem careOrderItem=this.careService.queryCareOrderItemByItemId(itemId);
+        if(null==careOrderItem){
+            return AjaxResult.fail("处方详情ID不存在");
+        }
+        if(!careOrderItem.getStatus().equals(Constants.ORDER_DETAILS_STATUS_0)){
+            return AjaxResult.fail("【"+itemId+"】不是未支付状态，不能删除");
+        }
+        return AjaxResult.toAjax(this.careService.deleteCareOrderItemByItemId(itemId));
+    }
+
+    /**
+     *完成就诊
+     */
+    @PostMapping("visitComplete/{regId}")
+    @HystrixCommand
+    public AjaxResult visitComplete(@PathVariable String regId){
+        Registration registration=this.registrationService.queryRegistrationByRegId(regId);
+        if(null==registration){
+            return AjaxResult.fail("【"+regId+"】挂号单号不存在，请核对后再提交");
+        }
+        if(!registration.getRegistrationStatus().equals(Constants.REG_STATUS_2)){
+            return AjaxResult.fail("【"+regId+"】状态不是就诊中状态，不能完成就诊");
+        }
+        //更改挂号单的状态
+        return AjaxResult.toAjax(this.careService.visitComplete(regId));
+    }
 }

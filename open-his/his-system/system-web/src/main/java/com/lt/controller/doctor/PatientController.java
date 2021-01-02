@@ -5,6 +5,7 @@ import cn.hutool.core.bean.BeanUtil;
 import com.lt.controller.BaseController;
 import com.lt.domain.*;
 import com.lt.dto.PatientDto;
+import com.lt.service.CareService;
 import com.lt.service.PatientService;
 import com.lt.vo.AjaxResult;
 import com.lt.vo.DataGridView;
@@ -33,8 +34,8 @@ public class PatientController  extends BaseController {
     @Reference
     private PatientService patientService;
 
-//    @Reference
-//    private CareService careService;
+    @Reference
+    private CareService careService;
 
     /**
      * 分页查询
@@ -70,33 +71,30 @@ public class PatientController  extends BaseController {
     /**
      * 根据患者ID查询患者信息 患者档案信息  历史病例
      */
-//    @GetMapping("getPatientAllMessageByPatientId/{patientId}")
-//    public AjaxResult getPatientAllMessageByPatientId(@PathVariable String patientId){
-//        //根据患者ID查询病例信息
-//        List<CareHistory> careHistories=this.careService.queryCareHistoryByPatientId(patientId);
-//        //构造返回的数据对象
-//        List<Map<String,Object>> res=new ArrayList<>();
-//        for (CareHistory careHistory : careHistories) {
-//            Map<String, Object> careHistoryMap = BeanUtil.beanToMap(careHistory);
-//            careHistoryMap.put("careOrders", Collections.EMPTY_LIST);
-//            List<Map<String, Object>> reCareOrders = new ArrayList<>();
-//            //根据病历ID查询处方列表
-//            List<CareOrder> careOrders = this.careService.queryCareOrdersByChId(careHistory.getChId());
-//            for (CareOrder order : careOrders) {
-//                Map<String, Object> careOrder = BeanUtil.beanToMap(order);
-//                List<CareOrderItem> careOrderItems = this.careService.queryCareOrderItemsByCoId(order.getCoId());
-//                careOrder.put("careOrderItems", careOrderItems);
-//                reCareOrders.add(careOrder);
-//            }
-//            careHistoryMap.put("careOrders", reCareOrders);
-//            res.add(careHistoryMap);
-//        }
-//
-//
-//        return AjaxResult.success(res);
-//    }
+    @GetMapping("getPatientAllMessageByPatientId/{patientId}")
+    public AjaxResult getPatientAllMessageByPatientId(@PathVariable String patientId){
+        //根据患者ID查询病例信息
+        List<CareHistory> careHistories=this.careService.queryCareHistoryByPatientId(patientId);
+        //构造返回的数据对象
+        List<Map<String,Object>> res=new ArrayList<>();
+        for (CareHistory careHistory : careHistories) {
+            Map<String, Object> careHistoryMap = BeanUtil.beanToMap(careHistory);
+            careHistoryMap.put("careOrders", Collections.EMPTY_LIST);
+            List<Map<String, Object>> reCareOrders = new ArrayList<>();
+            //根据病历ID查询处方列表
+            List<CareOrder> careOrders = this.careService.queryCareOrdersByChId(careHistory.getChId());
+            for (CareOrder order : careOrders) {
+                Map<String, Object> careOrder = BeanUtil.beanToMap(order);
+                List<CareOrderItem> careOrderItems = this.careService.queryCareOrderItemsByCoId(order.getCoId());
+                careOrder.put("careOrderItems", careOrderItems);
+                reCareOrders.add(careOrder);
+            }
+            careHistoryMap.put("careOrders", reCareOrders);
+            res.add(careHistoryMap);
+        }
 
 
-
+        return AjaxResult.success(res);
+    }
 
 }

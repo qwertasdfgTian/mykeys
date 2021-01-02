@@ -52,7 +52,7 @@ public class RegistrationServiceImpl implements RegistrationService{
         qw.like(StringUtils.isNotBlank(registrationDto.getPatientName()),Registration.COL_PATIENT_NAME,registrationDto.getPatientName());
         qw.eq(StringUtils.isNotBlank(registrationDto.getSchedulingType()),Registration.COL_SCHEDULING_TYPE,registrationDto.getSchedulingType());
         qw.eq(StringUtils.isNotBlank(registrationDto.getSubsectionType()),Registration.COL_SUBSECTION_TYPE,registrationDto.getSubsectionType());
-        qw.eq(StringUtils.isNotBlank(registrationDto.getRegStatus()),Registration.COL_REGISTRATION_STATUS,registrationDto.getRegStatus());
+        qw.eq(StringUtils.isNotBlank(registrationDto.getRegistrationStatus()),Registration.COL_REGISTRATION_STATUS,registrationDto.getRegistrationStatus());
         qw.eq(StringUtils.isNotBlank(registrationDto.getVisitDate()),Registration.COL_VISIT_DATE,registrationDto.getVisitDate());
         qw.orderByDesc(Registration.COL_CREATE_TIME);
         this.registrationMapper.selectPage(page,qw);

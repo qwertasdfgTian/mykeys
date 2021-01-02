@@ -25,7 +25,7 @@ public class RegistrationDto extends BaseDto {
      * 挂号流水
      */
     @ApiModelProperty(value="挂号流水")
-    private String regId;
+    private String registrationId;
 
     /**
      * 患者ID
@@ -84,7 +84,7 @@ public class RegistrationDto extends BaseDto {
      * 挂号状态0未收费,1待就诊，2,就诊中，3，就诊完成，4，已退号，5 作废
      */
     @ApiModelProperty(value="挂号状态0未收费,1待就诊，2,就诊中，3，就诊完成，4，已退号，5 作废")
-    private String regStatus;
+    private String registrationStatus;
 
     /**
      * 就诊日期
