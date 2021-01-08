@@ -45,7 +45,7 @@ public interface CareService {
      * @param coId
      * @return
      */
-    List<CareOrderItem> queryCareOrderItemsByCoId(String coId);
+    List<CareOrderItem> queryCareOrderItemsByCoId(String coId,String status);
 
     /**
      * 根据病例ID查询病历信息
@@ -80,4 +80,11 @@ public interface CareService {
      * @return
      */
     int visitComplete(String regId);
+
+    /**
+     * 发药
+     * @param itemIds
+     * @return
+     */
+    String doMedicine(List<String> itemIds);
 }

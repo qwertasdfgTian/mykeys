@@ -254,31 +254,31 @@ export const asyncRoutes = [
     children: [
       {
         path: 'charge',
-        component: () => import('@/views/error-page/404'),
+        component: () => import('@/views/doctor/charge/charge'),
         name: '/charge/docharge',
         meta: { title: '处方收费', icon: 'list' }
       },
       {
         path: 'chargelist',
-        component: () => import('@/views/error-page/404'),
+        component: () => import('@/views/doctor/charge/chargelist'),
         name: '/charge/chargelist',
         meta: { title: '收费查询', icon: 'list' }
       },
       {
         path: 'backfee',
-        component: () => import('@/views/error-page/404'),
+        component: () => import('@/views/doctor/backfee/backfee'),
         name: '/charge/backfee',
         meta: { title: '处方退费', icon: 'list' }
       },
       {
         path: 'backfeelist',
-        component: () => import('@/views/error-page/404'),
+        component: () => import('@/views/doctor/backfee/backfeelist'),
         name: '/charge/backfeelist',
         meta: { title: '退费查询', icon: 'list' }
       },
       {
         path: 'dispensing',
-        component: () => import('@/views/error-page/404'),
+        component: () => import('@/views/doctor/handleMedicine/index'),
         name: '/charge/dispensing',
         meta: { title: '处方发药', icon: 'list' }
       }

@@ -82,4 +82,9 @@ public class MedicinesServiceImpl implements MedicinesService{
         medicines.setMedicinesStockNum(medicinesStockNum);
         return this.medicinesMapper.updateById(medicines);
     }
+
+    @Override
+    public int deductionMedicinesStorage(Long medicinesId, long num) {
+        return this.medicinesMapper.deductionMedicinesStorage(medicinesId,num);
+    }
 }

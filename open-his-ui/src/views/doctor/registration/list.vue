@@ -59,9 +59,9 @@
           />
         </el-select>
       </el-form-item>
-      <el-form-item label="挂号状态" prop="regStatus">
+      <el-form-item label="挂号状态" prop="registrationStatus">
         <el-select
-          v-model="queryParams.regStatus"
+          v-model="queryParams.registrationStatus"
           placeholder="挂号状态"
           clearable
           size="small"
@@ -96,7 +96,7 @@
         <template slot-scope="props">
           <el-form label-position="right" inline class="demo-table-expand">
             <el-form-item label="挂号ID:">
-              <span>{{ props.row.regId }}</span>
+              <span>{{ props.row.registrationId }}</span>
             </el-form-item>
             <el-form-item label="挂号员:">
               <span>{{ props.row.createBy }}</span>
@@ -116,15 +116,15 @@
         </template>
       </el-table-column>
       <el-table-column label="流水编号" align="center" prop="regNumber" />
-      <el-table-column label="状态" align="center" prop="regStatus" :formatter="regStatusFormatter" />
+      <el-table-column label="状态" align="center" prop="registrationStatus" :formatter="regStatusFormatter" />
       <el-table-column label="就诊日期" align="center" prop="visitDate" />
       <el-table-column label="挂号类型" align="center" prop="schedulingType" :formatter="schedulingTypeFormatter" />
       <el-table-column label="挂号时段" align="center" prop="subsectionType" :formatter="subsectionTypeFormatter" />
       <el-table-column label="操作" align="center" width="200">
         <template slot-scope="scope">
-          <el-button v-if="scope.row.regStatus=='0'" type="success" icon="el-icon-check" size="mini" @click="handleCollect(scope.row)">收费</el-button>
-          <el-button v-if="scope.row.regStatus=='1'" type="danger" icon="el-icon-close" size="mini" @click="handleReturn(scope.row)">退号</el-button>
-          <el-button v-if="scope.row.regStatus=='0'" type="danger" icon="el-icon-check" size="mini" @click="handleInvalid(scope.row)">作废</el-button>
+          <el-button v-if="scope.row.registrationStatus=='0'" type="success" icon="el-icon-check" size="mini" @click="handleCollect(scope.row)">收费</el-button>
+          <el-button v-if="scope.row.registrationStatus=='1'" type="danger" icon="el-icon-close" size="mini" @click="handleReturn(scope.row)">退号</el-button>
+          <el-button v-if="scope.row.registrationStatus=='0'" type="danger" icon="el-icon-check" size="mini" @click="handleInvalid(scope.row)">作废</el-button>
         </template>
       </el-table-column>
     </el-table>
@@ -154,6 +154,9 @@ export default {
   filters: {
     // 保留两位小数
     rounding(value) {
+      if (!value) {
+        return ''
+      }
       return value.toFixed(2)
     }
   },
@@ -261,12 +264,12 @@ export default {
     },
     // 翻译挂号单类型
     regStatusFormatter(row, column) {
-      return this.selectDictLabel(this.regStatusOptions, row.regStatus)
+      return this.selectDictLabel(this.regStatusOptions, row.registrationStatus)
     },
     // 收费
     handleCollect(row) {
       this.loading = true
-      collectFee(row.regId).then(res => {
+      collectFee(row.registrationId).then(res => {
         this.loading = false
         this.msgSuccess('收费成功')
         this.listRegistration()
@@ -277,7 +280,7 @@ export default {
     // 作废
     handleInvalid(row) {
       this.loading = true
-      doInvalid(row.regId).then(res => {
+      doInvalid(row.registrationId).then(res => {
         this.loading = false
         this.msgSuccess('作废成功')
         this.listRegistration()
@@ -288,7 +291,7 @@ export default {
     // 退号
     handleReturn(row) {
       this.loading = true
-      doReturn(row.regId).then(res => {
+      doReturn(row.registrationId).then(res => {
         this.loading = false
         this.msgSuccess('退号成功')
         this.listRegistration()

@@ -290,7 +290,6 @@ export default {
     this.queryDeptParams.subsectionType = subsectionType
     // 加载部门数据
     this.getDeptForScheduling()
-    console.log(subsectionType)
   },
   methods: {
     // 根据输入的身份证号加载患者数据

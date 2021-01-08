@@ -361,7 +361,7 @@
               <template slot-scope="scope">
                 <el-form label-position="right" inline class="demo-table-expand">
                   <el-form-item label="挂号ID">
-                    <span>{{ scope.row.regId }}</span>
+                    <span>{{ scope.row.registrationId }}</span>
                   </el-form-item>
                   <el-form-item label="患者ID">
                     <span>{{ scope.row.patientId }}</span>
@@ -391,7 +391,7 @@
               <template slot-scope="scope">
                 <el-form label-position="right" inline class="demo-table-expand">
                   <el-form-item label="挂号ID">
-                    <span>{{ scope.row.regId }}</span>
+                    <span>{{ scope.row.registrationId }}</span>
                   </el-form-item>
                   <el-form-item label="患者ID">
                     <span>{{ scope.row.patientId }}</span>
@@ -421,7 +421,7 @@
               <template slot-scope="scope">
                 <el-form label-position="right" inline class="demo-table-expand">
                   <el-form-item label="挂号ID">
-                    <span>{{ scope.row.regId }}</span>
+                    <span>{{ scope.row.registrationId }}</span>
                   </el-form-item>
                   <el-form-item label="患者ID">
                     <span>{{ scope.row.patientId }}</span>
@@ -803,11 +803,16 @@ export default {
     },
     // 翻译处方详情状态
     orderDetailsStatusFormatter(row) {
-      return this.selectDictLabel(this.orderDetailsStatusOptions, row.status)
+      const s = this.selectDictLabel(this.orderDetailsStatusOptions, row.status)
+      if (s === '') {
+        return '支付中'
+      } else {
+        return s
+      }
     },
     // 接诊
     handleVisit(row) {
-      this.careHistory.regId = row.regId
+      this.careHistory.regId = row.registrationId
       const patientId = row.patientId
       // 接诊，更新挂号的状态为就诊中并写入接诊的医生信息
       this.loading = true
@@ -833,7 +838,7 @@ export default {
     },
     // 载入
     handleLoading(row) {
-      this.careHistory.regId = row.regId
+      this.careHistory.regId = row.registrationId
       const patientId = row.patientId
       // 根据患者ID查询患者信息档案信息 病历信息
       getPatientAllMessageByPatientId(patientId).then(res => {
@@ -849,7 +854,7 @@ export default {
         this.loading = false
       })
       // 根据挂号单ID查询对应的病历信息
-      this.getCareHistoryByRegId(row.regId)
+      this.getCareHistoryByRegId(row.registrationId)
     },
     // 根据挂号单ID查询对应的病历信息
     getCareHistoryByRegId(regId) {
