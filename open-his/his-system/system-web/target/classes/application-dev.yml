@@ -64,7 +64,7 @@ fdfs:
   tracker-list:          # tracker服务配置地址列表
     - 39.101.131.194:22122
 upload:
-  base-url: http://39.101.131.194
+  base-url: http://39.101.131.194:8888
   allow-types:
     - image/jpeg
     - image/png
