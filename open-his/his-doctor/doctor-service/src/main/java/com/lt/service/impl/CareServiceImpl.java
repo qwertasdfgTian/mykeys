@@ -189,4 +189,17 @@ public class CareServiceImpl implements CareService {
             return sb.toString();
         }
     }
+
+    @Override
+    public List<CareOrderItem> queryCareOrderItemsByStatus(String coType, String status) {
+        QueryWrapper<CareOrderItem> qw=new QueryWrapper<>();
+        qw.eq(CareOrderItem.COL_ITEM_TYPE,coType);
+        qw.eq(CareOrderItem.COL_STATUS,status);
+        return this.careOrderItemMapper.selectList(qw);
+    }
+
+    @Override
+    public CareOrder queryCareOrdersByCoId(String coId) {
+        return this.careOrderMapper.selectById(coId);
+    }
 }

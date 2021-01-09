@@ -87,4 +87,19 @@ public interface CareService {
      * @return
      */
     String doMedicine(List<String> itemIds);
+
+    /**
+     *根据条件查询所有项目
+     * @param coType 0 药品  1检查项目
+     * @param status 支付状态
+     * @return
+     */
+    List<CareOrderItem> queryCareOrderItemsByStatus(String coType, String status);
+
+    /**
+     * 根据处方ID查询一个处方信息
+     * @param coId
+     * @return
+     */
+    CareOrder queryCareOrdersByCoId(String coId);
 }
