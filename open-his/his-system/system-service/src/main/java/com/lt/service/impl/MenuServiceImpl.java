@@ -39,7 +39,7 @@ public class MenuServiceImpl implements MenuService{
         if(isAdmin){
             return menuMapper.selectList(qw);
         }else{
-            return menuMapper.selectList(qw);
+            return menuMapper.selectMenuListByUserId(simpleUser.getUserId());
         }
     }
     @Override

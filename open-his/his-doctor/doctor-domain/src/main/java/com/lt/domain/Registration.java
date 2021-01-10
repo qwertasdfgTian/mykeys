@@ -67,21 +67,21 @@ public class Registration extends BaseEntity {
      */
     @TableField(value = "registration_item_id")
     @ApiModelProperty(value="挂号费用ID")
-    private Long registrationItemId;
+    private Long regItemId;
 
     /**
      * 挂号总金额
      */
     @TableField(value = "registration_amount")
     @ApiModelProperty(value="挂号总金额")
-    private BigDecimal registrationAmount;
+    private BigDecimal regItemAmount;
 
     /**
      * 挂号编号
      */
     @TableField(value = "registration_number")
     @ApiModelProperty(value="挂号编号")
-    private Integer registrationNumber;
+    private Integer regNumber;
 
     /**
      * 挂号状态0未收费,1待就诊，2,就诊中，3，就诊完成，4，已退号，5 作废

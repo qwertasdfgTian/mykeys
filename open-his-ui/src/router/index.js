@@ -169,26 +169,26 @@ export const asyncRoutes = [
     children: [
       {
         path: 'revenue',
-        component: () => import('@/views/error-page/404'),
+        component: () => import('@/views/statisics/revenue/index'),
         name: '/statistics/revenue',
         meta: { title: '收支统计', icon: 'edit' }
       },
       {
         path: 'sales',
-        component: () => import('@/views/error-page/404'),
+        component: () => import('@/views/statisics/drug/index'),
         name: '/statistics/sales',
         meta: { title: '药品销售统计', icon: 'list' },
         hidden: true
       },
       {
         path: 'check',
-        component: () => import('@/views/error-page/404'),
+        component: () => import('@/views/statisics/check/index'),
         name: '/statistics/check',
         meta: { title: '检查项目统计', icon: 'list' }
       },
       {
         path: 'workload',
-        component: () => import('@/views/error-page/404'),
+        component: () => import('@/views/statisics/workload/index'),
         name: '/statistics/workload',
         meta: { title: '工作量统计', icon: 'list' }
       }
